@@ -4,6 +4,10 @@ header {
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
 }
-img {
-    padding-left: 20px;
+#logo {
+    background-image: url('../images/logo.png');
+    width: 142px;
+    height: 60px;
+    margin-left: 20px;
+    display: inline-block;
 }
