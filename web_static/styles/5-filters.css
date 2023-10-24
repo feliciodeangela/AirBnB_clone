@@ -1,11 +1,15 @@
-.locations {
+.locations, .amenities {
+    display: flex;
     height: 100%;
     width: 25%;
-    border-right: 1px solid #DDDDDD;
+    justify-content: center;
+    align-items: center;
+    align-content:center ;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
-.amenities {
-    height: 100%;
-    width: 25%;
+.locations {
+    border-right:1px solid #DDDDDD;
 }
 h3 {
     font-weight: 600;
