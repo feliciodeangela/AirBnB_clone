@@ -4,12 +4,17 @@
     width: 25%;
     justify-content: center;
     align-items: center;
-    align-content:center ;
     flex-wrap: wrap;
     flex-direction: column;
 }
 .locations {
     border-right:1px solid #DDDDDD;
+}
+.filters-title {
+    display:flex;
+}
+.filters-subtitle {
+    display: flex;
 }
 h3 {
     font-weight: 600;
