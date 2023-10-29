@@ -6,9 +6,10 @@ body {
     font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .container {
+    display: flex;
     max-width: 1000px;
     margin: 30px auto 30px auto;
-    text-align: center;
+    flex-direction: column;
 }
 .filters {
     background-color: #FFFFFF;
